@@ -25,15 +25,15 @@ try {
       }
       addToNotion({
         content: data,
-        name: name,
-        database: database
+        name,
+        database
       })
     })
   } else {
     addToNotion({
       content: filepath,
-      name: name,
-      database: database
+      name,
+      database
     })
   }
 } catch (error) {
